@@ -74,19 +74,19 @@ function preload() {
     "https://res.cloudinary.com/the-hub/video/upload/v1606759311/hopes-and-aspirations/Inclusive_Futures_Tree_holding_shot_FADE_AUDIO_oedczu.mp4",
   ]);
   castro = createAudio(
-    "https://res.cloudinary.com/the-hub/video/upload/v1606240744/hopes-and-aspirations/Castro_name_audio_trimmed_jtsa0r.m4a"
+    "https://res.cloudinary.com/the-hub/video/upload/v1614033325/hopes-and-aspirations/Castro-name_audio_cleaned_-13LUFS_Int__128kbps_gxgmid.mp3"
   );
   rajah = createAudio(
-    "https://res.cloudinary.com/the-hub/video/upload/v1606240744/hopes-and-aspirations/Rajah_name_audio_trimmed_rcz9cc.m4a"
+    "https://res.cloudinary.com/the-hub/video/upload/v1614033325/hopes-and-aspirations/Rajah-name_audio_cleaned_-13LUFS_Int__128kbps_j7xebe.mp3"
   );
   robyn = createAudio(
-    "https://res.cloudinary.com/the-hub/video/upload/v1606240744/hopes-and-aspirations/Robyn_name_audio_trimmed_noxfqf.m4a"
+    "https://res.cloudinary.com/the-hub/video/upload/v1614033325/hopes-and-aspirations/Robyn-name_audio_cleaned_-13LUFS_Int__128kbps_bxsfby.mp3"
   );
   thomas = createAudio(
-    "https://res.cloudinary.com/the-hub/video/upload/v1606240744/hopes-and-aspirations/Thomas_name_audio_trimmed_igcesv.m4a"
+    "https://res.cloudinary.com/the-hub/video/upload/v1614033325/hopes-and-aspirations/Thomas-name_audio_cleaned_-13LUFS_Int__128kbps_sy9rmc.mp3"
   );
   aysen = createAudio(
-    "https://res.cloudinary.com/the-hub/video/upload/v1606915082/hopes-and-aspirations/Aysen_name_audio_s9lrel.m4a"
+    "https://res.cloudinary.com/the-hub/video/upload/v1614033325/hopes-and-aspirations/Aysen-name_audio_cleaned_-13LUFS_Int__128kbps_mbpakg.mp3"
   );
   videoCastro = createVideo([
     "https://res.cloudinary.com/the-hub/video/upload/v1606239878/hopes-and-aspirations/Castro_subs_gehkxc.mp4",
