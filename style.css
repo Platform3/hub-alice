@@ -1,26 +1,26 @@
 * {
--webkit-tap-highlight-color: transparent; /* for removing the highlight */
+  -webkit-tap-highlight-color: transparent; /* for removing the highlight */
 }
 
 html {
   margin: 0;
   padding: 0;
-/*   width: 100vw; */
-/*   height: 100vh; */
-/*   height: calc(var(--vh, 1vh) * 100); */
-/*   width: 100vw; */
-/*   height: 100vh; */
-/*   height: calc(var(--vh, 1vh) * 100) !important; */
-/*   touch-action: none; */
+  /*   width: 100vw; */
+  /*   height: 100vh; */
+  /*   height: calc(var(--vh, 1vh) * 100); */
+  /*   width: 100vw; */
+  /*   height: 100vh; */
+  /*   height: calc(var(--vh, 1vh) * 100) !important; */
+  /*   touch-action: none; */
   overflow-x: hidden;
-  
+
   height: -webkit-fill-available;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
   background-color: #000;
 }
 
@@ -29,9 +29,9 @@ canvas {
   z-index: 200;
 
   width: 100vw;
-height: 100vh;
-height: calc(var(--vh, 1vh) * 100) !important;
-  
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100) !important;
+
   overflow: hidden;
   top: 0;
   bottom: 0;
@@ -41,36 +41,18 @@ video {
   position: absolute;
   top: 0;
   bottom: 0;
-width: 100vw;
-height: 100vh;
-height: calc(var(--vh, 1vh) * 100) !important;
-  
+  width: 100vw;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100) !important;
+
   object-fit: contain;
   z-index: 100;
   opacity: 0;
-  -webkit-transition: all 2s ease-in-out;
-  -moz-transition: all 2s ease-in-out;
-  -ms-transition: all 2s ease-in-out;
-  -o-transition: all 2s ease-in-out;
-  transition: all 2s ease-in-out;
-}
-
-.lower {
-  /*   z-index: 10; */
-}
-
-.second {
-  /*   z-index: 101; */
-  opacity: 1;
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-}
-
-.top {
-  /*   z-index: 102; */
-  opacity: 1;
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
 .in {
@@ -83,8 +65,8 @@ height: calc(var(--vh, 1vh) * 100) !important;
 .out {
   /*   z-index: 102; */
   opacity: 0;
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
+  animation: fadeIn ease 0.7s;
+  -webkit-animation: fadeIn ease 0.7s;
 }
 
 #textOutput-content,
@@ -107,8 +89,8 @@ button {
   margin: 0;
   text-decoration: none;
   background: transparent;
-/*   opacity: 0.3; */
-/*   background-color:rgba(255,0,0,0.3); */
+  /*   opacity: 0.3; */
+  /* background-color: rgba(255, 0, 0, 0.3); */
   color: transparent;
   font-family: sans-serif;
   font-size: 1rem;
