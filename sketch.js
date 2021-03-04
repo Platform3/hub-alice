@@ -356,6 +356,7 @@ function makebuttons(id, xSize, ySize, xPos, yPos) {
 
 function buttonClick(clip) {
   if (!clickToStart && enableButtons) {
+    console.log("clicked button");
     playNewVideo(currentVideo, clip);
     enableButtons = false;
 
@@ -489,9 +490,10 @@ function playMain() {
   enableButtons = true;
   currentVideo = homeVid;
   videos.map((clip) => {
-    setTimeout(function () {
-      stopVideo(clip);
-    }, 700);
+    stopVideo(clip);
+    // setTimeout(function () {
+    // stopVideo(clip);
+    // }, 700);
     clip.addClass("out");
     clip.removeClass("in");
   });
